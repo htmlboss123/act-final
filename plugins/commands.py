@@ -126,12 +126,7 @@ async def start(client, message):
                 file_caption=file.caption
             )   
             btn = [[
-                InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f"stream#{file.file_id}")
-            ],[
-                InlineKeyboardButton('⚡️ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ⚡️', url=UPDATES_LINK),
-                InlineKeyboardButton('💡 Support Group 💡', url=SUPPORT_LINK)
-            ],[
-                InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data')
+                InlineKeyboardButton("✛ REQUEST ✛", url=f'https://t.me/+flUQ-va_Tbk5MWFl')
             ]]
             await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -164,12 +159,7 @@ async def start(client, message):
         file_caption=files.caption
     )
     btn = [[
-        InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f"stream#{file_id}")
-    ],[
-        InlineKeyboardButton('⚡️ ᴜᴘᴅᴀᴛᴇs ⚡️', url=UPDATES_LINK),
-        InlineKeyboardButton('💡 ꜱᴜᴘᴘᴏʀᴛ 💡', url=SUPPORT_LINK)
-    ],[
-        InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data')
+        InlineKeyboardButton("✛ REQUEST ✛", url=f'https://t.me/+flUQ-va_Tbk5MWFl')
     ]]
     await client.send_cached_media(
         chat_id=message.from_user.id,
