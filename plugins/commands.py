@@ -146,9 +146,9 @@ async def start(client, message):
     if type_ != 'shortlink' and settings['shortlink']:
         link = await get_shortlink(settings['url'], settings['api'], f"https://t.me/{temp.U_NAME}?start=shortlink_{grp_id}_{file_id}")
         btn = [[
-            InlineKeyboardButton("♻️ Get File ♻️", url=link)
+            InlineKeyboardButton("🌀 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 🌀", url=link)
         ],[
-            InlineKeyboardButton("📍 ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ 📍", url=settings['tutorial'])
+            InlineKeyboardButton("🔴 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 🔴", url=settings['tutorial'])
         ]]
         await message.reply(f"[{get_size(files.file_size)}] {files.file_name}\n\nYour file is ready, Please get using this link. 👍", reply_markup=InlineKeyboardMarkup(btn), protect_content=True)
         return
@@ -159,7 +159,7 @@ async def start(client, message):
         file_caption=files.caption
     )
     btn = [[
-        InlineKeyboardButton("✛ REQUEST ✛", url=f'https://t.me/+flUQ-va_Tbk5MWFl')
+        InlineKeyboardButton("🌀 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐘𝐨𝐮𝐫 𝐦𝐨𝐯𝐢𝐞 🌀", url=f'https://t.me/+flUQ-va_Tbk5MWFl')
     ]]
     await client.send_cached_media(
         chat_id=message.from_user.id,
