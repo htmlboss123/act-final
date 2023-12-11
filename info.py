@@ -40,7 +40,7 @@ else:
 
 # Channels
 INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '').split()]
-AUTH_CHANNEL = [int(auth_channels) for auth_channels in environ.get('AUTH_CHANNEL', '').split()]
+AUTH_CHANNEL = [int(auth_channels) for auth_channels in environ.get('AUTH_CHANNEL', '-1001555253675').split()]
 LOG_CHANNEL = environ.get('LOG_CHANNEL', '')
 if len(LOG_CHANNEL) == 0:
     print('Error - LOG_CHANNEL is missing, exiting now')
@@ -48,7 +48,7 @@ if len(LOG_CHANNEL) == 0:
 else:
     LOG_CHANNEL = int(LOG_CHANNEL)
     
-SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1002008705346')
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1001684135878')
 if len(SUPPORT_GROUP) == 0:
     print('Error - SUPPORT_GROUP is missing, exiting now')
     exit()
@@ -68,8 +68,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/illegal_supports')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Illegal_Developer')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/AtWoner_bot')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Actual_thing')
 
 # Bot settings
 AUTO_FILTER = is_enabled((environ.get('AUTO_FILTER', "True")), True)
@@ -89,12 +89,12 @@ LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam"]
 # Other
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "ziplinker.net")
-SHORTLINK_API = environ.get("SHORTLINK_API", "37752ccfafb8030f3614dd384405293d5a629203")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "Instantlinks.in")
+SHORTLINK_API = environ.get("SHORTLINK_API", "21bad4e94a15dcbfc685f8bf5a6d37a7da13df15")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
-IS_VERIFY = is_enabled(environ.get("IS_VERIFY", "True"), True)
+IS_VERIFY = is_enabled(environ.get("IS_VERIFY", "False"), False)
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Illegal_Developer/10")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Notificationsactr/9")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Illegal_Developer/10")
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
 
