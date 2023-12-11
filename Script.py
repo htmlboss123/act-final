@@ -105,13 +105,9 @@ I can't find the <b>{}</b> in my database! 🥲
 🗣 Requested by: {message.from_user.mention}
 ©️ Powered by: <b>{message.chat.title}</b>"""
 
-    FILE_CAPTION = """<b><a href='https://t.me/actual_thing'>{file_name}</a>
+    FILE_CAPTION = """ɴᴀᴍᴇ: <code>{file_name}</code>
 
-🔰 Join For Back-up
-@actual_thing
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</b>
-
-<i>ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ</i> 🚫"""
+ᴊᴏɪɴ ɴᴏᴡ: <a href=https://t.me/+flUQ-va_Tbk5MWFl>ᴀᴄᴛᴜᴀʟ ᴛʜɪɴɢ</a>"""
 
     WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
 
