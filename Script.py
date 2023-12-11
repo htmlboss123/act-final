@@ -61,9 +61,14 @@ Total - <code>{}</code>"""
 
 I can't find the <b>{}</b> in my database! 🥲
 
-👉 Google Search and check your spelling is correct.
-👉 Please read the Instructions to get better results.
-👉 Or not been released yet."""
+📍 Movie Not available Reasons
+
+1) O.T.T Or DVD Not Released
+
+2) Type Name With Year 
+
+3) Movie Is Not Available in the database Say In Our Other Group To Get This Movies
+@Deveroc
     
     EARN_TXT = """<b>ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ꜰʀᴏᴍ ᴛʜɪs ʙᴏᴛ
 
