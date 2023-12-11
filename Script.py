@@ -107,7 +107,7 @@ I can't find the <b>{}</b> in my database! 🥲
 
     FILE_CAPTION = """ɴᴀᴍᴇ: <code>{file_name}</code>
 
-ᴊᴏɪɴ ɴᴏᴡ: <a href=https://t.me/+flUQ-va_Tbk5MWFl>ᴀᴄᴛᴜᴀʟ ᴛʜɪɴɢ</a>"""
+ᴊᴏɪɴ ɴᴏᴡ: <a href=https://t.me/+kAh07hUHdt9mZjFl>ᴀᴄᴛᴜᴀʟ ᴛʜɪɴɢ</a>"""
 
     WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
 
