@@ -226,9 +226,8 @@ async def next_page(bot, query):
                 InlineKeyboardButton("ɴᴇxᴛ »", callback_data=f"next_{req}_{key}_{n_offset}")
             ]
         )
-   else:
-        btn.append(
-            [InlineKeyboardButton('🔴 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 🔴', url="https://t.me/Notificationsactr/9")]
+    btn.append(
+        [InlineKeyboardButton('🔴 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 🔴', url="https://t.me/Notificationsactr/9")]
         )
     btn.append(
         [InlineKeyboardButton(text="🚸 ɴᴏ ᴍᴏʀᴇ ᴘᴀɢᴇs 🚸", callback_data="buttons")]
