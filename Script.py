@@ -61,13 +61,8 @@ Total - <code>{}</code>"""
 
 I can't find the <b>{}</b> in my database! 🥲
 
-📍 Movie Not available Reasons
+❓ Spelling Thik se likh With Relese Date 🙃
 
-1) O.T.T Or DVD Not Released
-2) Type Name With Year 
-3) Movie Is Not Available in the database Say In Our Other Group To Get This Movies.
- 🥰 @Deveroc 🥰"""
-    
     EARN_TXT = """<b>ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ꜰʀᴏᴍ ᴛʜɪs ʙᴏᴛ
 
 ➥ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ ʙʏ ᴜsɪɴɢ ᴛʜɪꜱ ʙᴏᴛ.
